@@ -1,0 +1,534 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-09-17T18:41:32.315Z",
+    "__export_source": "insomnia.desktop.app:v2021.6.0",
+    "resources": [
+        {
+            "_id": "req_c4ac0cb8196e4262ba3c5d9d4d3fbfd8",
+            "parentId": "fld_8cca9774460d4d5b8143f6c1cbf61bd0",
+            "modified": 1656594289221,
+            "created": 1642544899721,
+            "url": "http://localhost:8083/library",
+            "name": "create",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Centro de Ciências e Tecnologias Agropecuárias\",\n\t\"description\": \"O Centro de Ciências e Tecnologias Agropecuárias dedica-se ao ensino, à pesquisa e à extensão em diversas áreas relacionadas à produção animal e vegetal e tem suas atividades direcionadas ao desenvolvimento dos sistemas produtivos agropecuários regional, estadual e nacional. São oferecidos três Cursos de Graduação: Agronomia, Veterinária e Zootecnia e três Programa de Pós-graduação: Produção Vegetal, Ciência Animal e Genética e Melhoramento Vegetal. As pesquisas básicas e aplicadas são desenvolvidas em laboratórios, casas de vegetação e em campos experimentais em diferentes municípios do Norte e Noroeste Fluminense. Alunos de graduação e pós-graduação são estimulados a participar de atividades diversas, envolvendo-se diretamente com as atividades de ensino, pesquisa e extensão. O Centro possui 89 professores doutores, um quadro de técnicos e administrativos altamente qualificados, laboratórios equipados com modernos equipamentos, além de Hospital Veterinário, Núcleo de Pesquisa em Zootecnia e Produção Vegetal na Escola Estadual Agrícola Antônio Sarlo, Unidade de Apoio à Pesquisa no Campus da UENF, na Estação Experimental da Pesagro-Rio em Campos dos Goytacazes e em Itaocara, de Estações Evapotranspirométrica, entre outras infraestruturas de suporte para aulas práticas, pesquisas e cursos de extensão. Proporcionando aos alunos uma sólida cultura, adequado preparo humanístico, elevado conteúdo político e sólidos conhecimentos científicos e tecnológicos. Formando profissionais preparados para reorientar o futuro sustentável da Humanidade.\",\n\t\"slug\": \"CCTA\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "description": "",
+                    "id": "pair_661ceac4e1ac451c83eb170104ed7677"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyYjUxNTU4ZDJiMWU4NTYzNWNjNjY0NSIsIm5hbWUiOiJTY2h1bHoiLCJlbWFpbCI6InNjaHVsekBlbWFpbC5jb20ifSwiZXhwaXJhdGlvbiI6IjIwMjItMDYtMzBUMTQ6MDI6MDcuNDkzWiIsImlhdCI6MTY1NjU5NDEyN30.P07YkfeRoyvQwXmGm_D7Ut81bkTwXgALucLYHg9vZOQ",
+                    "id": "pair_64f9272bd3964948bfa175e5e0969dd8"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1642544899721,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_8cca9774460d4d5b8143f6c1cbf61bd0",
+            "parentId": "fld_65e64884f4c94032a5b9f4f386f422a5",
+            "modified": 1642544879877,
+            "created": 1642544868565,
+            "name": "libraries",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1642544868565,
+            "_type": "request_group"
+        },
+        {
+            "_id": "fld_65e64884f4c94032a5b9f4f386f422a5",
+            "parentId": "wrk_68ffa157467148d4b9bae9fd568b4a1c",
+            "modified": 1641939613574,
+            "created": 1641939613574,
+            "name": "uenf",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1641939613574,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_68ffa157467148d4b9bae9fd568b4a1c",
+            "parentId": null,
+            "modified": 1612649349805,
+            "created": 1612649349805,
+            "name": "Insomnia",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_d17d9bbca63a41b9ae55e740459d14f5",
+            "parentId": "fld_05ed1d0b6d854f479742227fc2aa9768",
+            "modified": 1663438168254,
+            "created": 1642024550769,
+            "url": "http://localhost:9001/login",
+            "name": "login",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"email\": \"schulz@email.com\",\n\t\"password\": \"123\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_3a2894afaa14462ea307af00443a7615"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1641939760446,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": false,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_05ed1d0b6d854f479742227fc2aa9768",
+            "parentId": "fld_65e64884f4c94032a5b9f4f386f422a5",
+            "modified": 1642024560333,
+            "created": 1642024560333,
+            "name": "user",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1642024560333,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_53335278104a4bce830dadf5663a438d",
+            "parentId": "fld_05ed1d0b6d854f479742227fc2aa9768",
+            "modified": 1663439994438,
+            "created": 1641939760396,
+            "url": "http://localhost:8082/user",
+            "name": "createUser",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"fernando\",\n  \"email\": \"fernandoviana@pq.uenf.br\",\n  \"password\": \"Educar2022\",\n  \"isAdmin\": true\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_393e244b249b4bf1b2ffbcf8d4f18e1f"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1641939760396,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_72370a3216f24c4fa23cfa05d6d9c0be",
+            "parentId": "fld_5393799ec40041fc814f81a54df91af2",
+            "modified": 1643125044945,
+            "created": 1642112877221,
+            "url": "http://localhost:9001/documents",
+            "name": "getAll",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [
+                {
+                    "name": "type",
+                    "value": "ARTIGO",
+                    "description": "",
+                    "id": "pair_ea12be02a2594e68aa422d59c6ac3adf"
+                },
+                {
+                    "id": "pair_faff94629ada4efaafa8a776166b1163",
+                    "name": "",
+                    "value": "",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxZTlkYjUzZmVjNTI3MjI0Y2Q0ZDQ3ZiIsIm5hbWUiOiJTY2h1bHoiLCJlbWFpbCI6InNjaHVsekBlbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQwOCRzaVNBTkdrQVFHUU9uL0NLZ29kM3plYlNOZ0s2b21vaWxLdklKWmJWejJmTS5mL2R5TGNOLiIsImlzQWRtaW4iOnRydWUsImNyZWF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsInVwZGF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsIl9fdiI6MH0sImlhdCI6MTY0MjcxNTk5MH0.R3Q7JvdnyHrC9cRkiF2UnZX7OQMkn4V7YzkPcG7mnZ4",
+                    "description": "",
+                    "id": "pair_3f605de5ef0746acba00b864bcffea0e"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1642112877222,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_5393799ec40041fc814f81a54df91af2",
+            "parentId": "fld_65e64884f4c94032a5b9f4f386f422a5",
+            "modified": 1642544855799,
+            "created": 1642024076712,
+            "name": "documents",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1642024076712,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_1221c47d035643318d387285fc80806b",
+            "parentId": "fld_5393799ec40041fc814f81a54df91af2",
+            "modified": 1642716988604,
+            "created": 1642376105112,
+            "url": "http://localhost:9001/document/61e88e42049f0df16673843e",
+            "name": "get",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxZTlkYjUzZmVjNTI3MjI0Y2Q0ZDQ3ZiIsIm5hbWUiOiJTY2h1bHoiLCJlbWFpbCI6InNjaHVsekBlbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQwOCRzaVNBTkdrQVFHUU9uL0NLZ29kM3plYlNOZ0s2b21vaWxLdklKWmJWejJmTS5mL2R5TGNOLiIsImlzQWRtaW4iOnRydWUsImNyZWF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsInVwZGF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsIl9fdiI6MH0sImlhdCI6MTY0MjcxNjgyN30.319cW6tITHuiP-ss54lHnbQXmKV5Pbl_dkrIa1gnBsg",
+                    "description": "",
+                    "id": "pair_3f605de5ef0746acba00b864bcffea0e"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1642112045012,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_2e1570b4c7fc4563b85bc734f404c6d1",
+            "parentId": "fld_5393799ec40041fc814f81a54df91af2",
+            "modified": 1656091831549,
+            "created": 1642111212802,
+            "url": "http://localhost:9001/document",
+            "name": "create",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"title\": \"Artigo 5\",\n\t\"description\": \"artigo sobre as leituras da vida da terra\",\n\t\"type\": \"ARTIGO\",\n\t\"researchArea\": \"Leituras da vida\",\n\t\"library\": \"61e7416dd80154e76fb3f30d\",\n\t\"file\": \"/src/assets/documents/arquivo2022.pdf\"\n}"
+            },
+            "parameters": [
+                {
+                    "name": "",
+                    "value": "",
+                    "description": "",
+                    "id": "pair_5e61ca2d65644a8b94578bcf8a6d1941"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_1609db48a0084cde8a36d38c11e4bb79"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxZTlkYjUzZmVjNTI3MjI0Y2Q0ZDQ3ZiIsIm5hbWUiOiJTY2h1bHoiLCJlbWFpbCI6InNjaHVsekBlbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQwOCRzaVNBTkdrQVFHUU9uL0NLZ29kM3plYlNOZ0s2b21vaWxLdklKWmJWejJmTS5mL2R5TGNOLiIsImlzQWRtaW4iOnRydWUsImNyZWF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsInVwZGF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsIl9fdiI6MH0sImlhdCI6MTY0MjcxNjgyN30.319cW6tITHuiP-ss54lHnbQXmKV5Pbl_dkrIa1gnBsg",
+                    "description": "",
+                    "id": "pair_29f50e338fee48d8aa46e834b7b54a95"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1642111212802,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_dcfd5e38a5b74a0ab9c1ed3b6269c59f",
+            "parentId": "fld_5393799ec40041fc814f81a54df91af2",
+            "modified": 1656091832555,
+            "created": 1642377859529,
+            "url": "http://localhost:9001/article/61e4b47486a792a24a5dc6b4",
+            "name": "update",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"title\": \"Vasco Campeão 5! Edit 2\",\n\t\"description\": \"Vasco foi campeão 5 vez... Edit 2\"\n}"
+            },
+            "parameters": [
+                {
+                    "name": "",
+                    "value": "",
+                    "description": "",
+                    "id": "pair_5e61ca2d65644a8b94578bcf8a6d1941"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_1609db48a0084cde8a36d38c11e4bb79"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxZGUwMzhkMjhlMjk4NTcwZjZlN2Y3ZSIsIm5hbWUiOiJTY2h1bHoiLCJlbWFpbCI6InNjaHVsekBlbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQwOCRxVTU1NFBtdlFvamFPYkdmRnh1UG91SW9FaTVka2UxZ09Oc3hnL3BZMkJHTlFKWGJYNWtpQyIsImlzQWRtaW4iOnRydWUsIl9fdiI6MH0sImlhdCI6MTY0MjAyNDYyM30.liY19P7A61UPEJ7zUjqClCAmW8RW_mY1GQa_U5Xua_4",
+                    "description": "",
+                    "id": "pair_29f50e338fee48d8aa46e834b7b54a95"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1642067650030.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_56e7169abe854ed9a95092b61a4defb0",
+            "parentId": "fld_5393799ec40041fc814f81a54df91af2",
+            "modified": 1642378382354,
+            "created": 1642378341178,
+            "url": "http://localhost:9001/article/61e4b47486a792a24a5dc6b4",
+            "name": "delete",
+            "description": "",
+            "method": "DELETE",
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "parameters": [
+                {
+                    "name": "",
+                    "value": "",
+                    "description": "",
+                    "id": "pair_5e61ca2d65644a8b94578bcf8a6d1941"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_1609db48a0084cde8a36d38c11e4bb79"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxZGUwMzhkMjhlMjk4NTcwZjZlN2Y3ZSIsIm5hbWUiOiJTY2h1bHoiLCJlbWFpbCI6InNjaHVsekBlbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQwOCRxVTU1NFBtdlFvamFPYkdmRnh1UG91SW9FaTVka2UxZ09Oc3hnL3BZMkJHTlFKWGJYNWtpQyIsImlzQWRtaW4iOnRydWUsIl9fdiI6MH0sImlhdCI6MTY0MjAyNDYyM30.liY19P7A61UPEJ7zUjqClCAmW8RW_mY1GQa_U5Xua_4",
+                    "description": "",
+                    "id": "pair_29f50e338fee48d8aa46e834b7b54a95"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1642045868644.75,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_0fa6b315a32845f1965065badcb5664e",
+            "parentId": "fld_5393799ec40041fc814f81a54df91af2",
+            "modified": 1656594410621,
+            "created": 1642024087259,
+            "url": "http://localhost:9001/document/upload",
+            "name": "upload",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "multipart/form-data",
+                "params": [
+                    {
+                        "name": "file",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_664c128098e34a47bd8b86c5f6376cd3",
+                        "type": "file",
+                        "fileName": "/home/fernandolinhares/Downloads/6-Texto do Artigo-281-1-10-20210628.pdf"
+                    }
+                ]
+            },
+            "parameters": [
+                {
+                    "name": "",
+                    "value": "",
+                    "description": "",
+                    "id": "pair_b11c32afe5ba434fabbf428ba1811961"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "multipart/form-data",
+                    "id": "pair_5e7e5d999cdc42c9bfeb8d5e98c059b4"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer ",
+                    "description": "",
+                    "id": "pair_2d8e2b16651e42de8d1ceb6f56a0542b"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1642024087259,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_90b84dbd90714200b72b8821a1db5347",
+            "parentId": "fld_5393799ec40041fc814f81a54df91af2",
+            "modified": 1643148399389,
+            "created": 1642026949344,
+            "url": "http://localhost:9001/document/download/artigoCct.pdf",
+            "name": "download",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [
+                {
+                    "name": "",
+                    "value": "",
+                    "description": "",
+                    "id": "pair_b11c32afe5ba434fabbf428ba1811961"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxZTlkYjUzZmVjNTI3MjI0Y2Q0ZDQ3ZiIsIm5hbWUiOiJTY2h1bHoiLCJlbWFpbCI6InNjaHVsekBlbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQwOCRzaVNBTkdrQVFHUU9uL0NLZ29kM3plYlNOZ0s2b21vaWxLdklKWmJWejJmTS5mL2R5TGNOLiIsImlzQWRtaW4iOnRydWUsImNyZWF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsInVwZGF0ZWRBdCI6IjIwMjItMDEtMjBUMjE6NTk6NDcuNjMyWiIsIl9fdiI6MH0sImlhdCI6MTY0MjcxNjgyN30.319cW6tITHuiP-ss54lHnbQXmKV5Pbl_dkrIa1gnBsg",
+                    "description": "",
+                    "id": "pair_2d8e2b16651e42de8d1ceb6f56a0542b"
+                },
+                {
+                    "id": "pair_af88b496e3a8404294f0c42ed81a0b3a",
+                    "name": "",
+                    "value": "",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1641981923852.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_994ec1e1d55c5b82b52666a2df4b12e4776acf70",
+            "parentId": "wrk_68ffa157467148d4b9bae9fd568b4a1c",
+            "modified": 1631555703990,
+            "created": 1612649349904,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1612649349904,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_994ec1e1d55c5b82b52666a2df4b12e4776acf70",
+            "parentId": "wrk_68ffa157467148d4b9bae9fd568b4a1c",
+            "modified": 1612649349906,
+            "created": 1612649349906,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_bf9500f18cf840a9a5e7c6e5cef2dea8",
+            "parentId": "wrk_68ffa157467148d4b9bae9fd568b4a1c",
+            "modified": 1612649349806,
+            "created": 1612649349806,
+            "fileName": "Insomnia",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_41e7dc59d5dc4c7d82a5a787b9c1e75d",
+            "parentId": "env_994ec1e1d55c5b82b52666a2df4b12e4776acf70",
+            "modified": 1637071095740,
+            "created": 1631555601808,
+            "name": "Literama",
+            "data": {
+                "url": "http://localhost:3000/local",
+                "id-master": "60f5c6d86b268e0fb3651d71",
+                "token-master": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjE1NGFiZDNlMTFhZGExNTVjNDMwYmVlIiwiaWF0IjoxNjM2NzIzMzYxfQ.s7md3Ku8RT0bTYLJrOM3dGjTkpBtNRc7dCQyIDpZ-kU",
+                "token-professor": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjE2MGFmMDkwMzVmNzI0ZTFjOGY0YjEwIiwiaWF0IjoxNjM3MDY3NDMyfQ.kgYRDTCw-H_hiY09ho0jv5RN33GZEAIIpufTT21mLgI",
+                "token-aluno": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjE1NGFjZDBiMDg3ZjliODZjNDA3MWVlIiwiaWF0IjoxNjM3MDcxMDU0fQ.4AtQunL7nQdtAmoYWD1MupPiYbdxtkHq6RgjZxLw0Rw",
+                "territory": "610bfac26c50ff3ee093eb52"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "url",
+                    "id-master",
+                    "token-master",
+                    "token-professor",
+                    "token-aluno",
+                    "territory"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1631555601808,
+            "_type": "environment"
+        }
+    ]
+}

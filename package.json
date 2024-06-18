@@ -1,0 +1,29 @@
+{
+  "name": "uenf-academy-api",
+  "version": "1.0.0",
+  "description": "Restful API for Uenf academy project",
+  "main": "index.js",
+  "author": "Fernando Linhares e Mateus Shulz",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
